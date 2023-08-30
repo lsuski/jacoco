@@ -7,22 +7,21 @@
  * SPDX-License-Identifier: EPL-2.0
  *
  * Contributors:
- *    Marc R. Hoffmann - initial API and implementation
+ *    Evgeny Mandrikov - initial API and implementation
  *
  *******************************************************************************/
-package org.jacoco.core.test.validation.java14;
+package org.jacoco.core.test.validation.java21;
 
-import org.jacoco.core.test.validation.Source.Line;
 import org.jacoco.core.test.validation.ValidationTestBase;
-import org.jacoco.core.test.validation.java14.targets.SwitchExpressionsTarget;
+import org.jacoco.core.test.validation.java21.targets.SwitchPatternMatchingTarget;
 
 /**
- * Test of code coverage for switch expressions.
+ * Test of code coverage in {@link SwitchPatternMatchingTarget}.
  */
-public class SwitchExpressionsTest extends ValidationTestBase {
+public class SwitchPatternMatchingTest extends ValidationTestBase {
 
-	public SwitchExpressionsTest() {
-		super(SwitchExpressionsTarget.class);
+	public SwitchPatternMatchingTest() {
+		super(SwitchPatternMatchingTarget.class);
 	}
 
 }
